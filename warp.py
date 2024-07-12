@@ -127,7 +127,7 @@ def on_mouse(event, x, y, flag, mstate):
 
 
 def main():
-    frame = cv2.imread('lena.jpg')
+    frame = cv2.imread('anass.jpg')
 
     cv2.namedWindow('source')
     cv2.createTrackbar('my; cv', 'source', 0, 1, ic.do_nothing)
